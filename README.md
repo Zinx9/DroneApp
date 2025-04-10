@@ -2,7 +2,7 @@
 
 This application simulates a drone flying within a 5x5 meter testing area using a command-based interface. It was developed using Java and follows Object-Oriented Programming (OOP) principles.
 
-## 📘 Description
+## Description
 
 - The drone starts inactive and can only respond to commands after a valid `LAUNCH`.
 - The testing area is a 5x5 grid where the origin (0,0) is the top-left (Northwest) corner.
@@ -13,14 +13,14 @@ This application simulates a drone flying within a 5x5 meter testing area using 
   - `STATUS` – Prints the current position and facing direction
   - `EXIT` – Ends the program
 
-## 🧱 Project Structure
+## Project Structure
 
 - `Drone.java` - Contains the Drone class with logic for movement, rotation, and state management.
 - `DroneCommandParser.java` - Parses and interprets text commands into drone actions.
 - `DronePage.java` - Handles console interaction (input/output).
 - `DroneTestApp.java` - Main class that runs the application.
 
-## ✅ Sample Commands
+## Sample Commands
 
 ```text
 LAUNCH 1,2,EAST
